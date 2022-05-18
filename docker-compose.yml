@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  frontendcode:
+    image: frontend_app
+    restart: always
+    volumes:
+      - "/frontendcode/node_modules"
+      - "./frontend/:/frontendcode"
+    ports:
+      - 4200:4200
+    command:
+      ng serve --host 0.0.0.0
+  backendcode:
+    image: backendcodebuild
+    restart: always
+    volumes:
+      - "/backendcode/node_modules"
+      - "./backend/:/backendcode"
+    ports:
+      - 4300:4300
+    command:
+      npm run start

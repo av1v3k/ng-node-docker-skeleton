@@ -1,0 +1,91 @@
+{
+    "headOfHousehold": false,
+    "infoComplete": true,
+    "profile": {
+        "emails": [
+            {
+                "text": "testkd_65@example.com",
+                "purposes": [
+                    {
+                        "name": "PRIMARY"
+                    }
+                ]
+            }
+        ],
+        "phones": [
+            {
+                "number": "5714892650",
+                "purposes": [
+                    {
+                        "name": "CONTACT"
+                    }
+                ],
+                "type": "CELLULAR"
+            },
+            {
+                "number": "9703800065",
+                "purposes": [
+                    {
+                        "name": "PRIMARY"
+                    }
+                ],
+                "type": "CELLULAR"
+            }
+        ],
+        "alternateIds": [
+            {
+                "type": "GUID",
+                "value": "200-160-1517357042172"
+            },
+            {
+                "type": "UUID",
+                "value": "15fe599e-f482-4bed-805d-8236af6762fe"
+            }
+        ],
+        "accountStatuses": [
+            {
+                "type": "ONLINE_ENROLLMENT",
+                "value": "ACTIVE",
+                "source": {
+                    "bannerId": "SAFEWAY",
+                    "name": "EMAIL_SYNCH",
+                    "storeId": "1502"
+                },
+                "platform": "SHOP",
+                "channel": "WEB",
+                "effectiveTimePeriods": [
+                    {
+                        "startDate": "2020-08-03",
+                        "startTime": "14:52:23.015"
+                    }
+                ]
+            }
+        ],
+        "personalInfo": {
+            "name": {
+                "firstName": "Test",
+                "lastName": "Sixty-Five"
+            }
+        },
+        "loginInfo": {
+            "id": "00udxu7xn0OhcCXnv0h7",
+            "userName": "testkd_65@example.com"
+        },
+        "customerType": "R",
+        "pwdSetInd": "Y"
+    },
+    "householdAccount": {
+        "householdId": "990014814110",
+        "headOfHousehold": false
+    },
+    "links": [
+        {
+            "rel": "self",
+            "href": "/api/uca/customers/200-160-1517357042172/profile"
+        },
+        {
+            "rel": "modifyProfile",
+            "href": "/api/uca/customers/200-160-1517357042172/profile"
+        }
+    ]
+}
